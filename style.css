@@ -52,3 +52,36 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+/*hero styling begins*/
+
+html {
+   background:url(../portfolio/california.png) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   background-size: cover;
+}
+
+.hero h2 {
+    color: var(--secondary-color);
+    text-align: right;
+    font-style: italic;
+    text-shadow:  0 0 10px rgb(255, 255, 153) ;
+}
+
+.intro h2 {
+        font-size: 48px;
+        color: var(--secondary-color);
+        border-bottom: 3px solid;
+        padding-bottom: 20px;
+        text-align: left;
+        margin: 0 auto 35px auto;
+        width: 50%;
+}
+.intro p {
+   line-height: 1.6;
+   color: var(--quad-color); 
+   width: 80%;
+   font-size: 22px;
+   margin: 0 auto;
+   text-align: center;
+}
