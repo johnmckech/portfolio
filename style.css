@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #8d8741;
+    --secondary-color: #659dbd;
+    --tertiary-color: #daad86;
+    --quad-color: #bc986a;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position:-webkit-sticky;
+    top:0;
+    background-image: url(../portfolio/california.png) ;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: var(--tertiary-color)
+}
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color)
+}
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+list-style: none;
+align-items: flex-end;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgb(101, 157, 189, 0.7);
+}
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
