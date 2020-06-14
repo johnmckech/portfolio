@@ -70,10 +70,10 @@ html {
 
 .intro h2 {
         font-size: 48px;
-        color: var(--secondary-color);
+        color: var(--tertiary-color);
         border-bottom: 3px solid;
         padding-bottom: 20px;
-        text-align: left;
+        text-align: center;
         margin: 0 auto 35px auto;
         width: 50%;
 }
@@ -84,4 +84,32 @@ html {
    font-size: 22px;
    margin: 0 auto;
    text-align: center;
+}
+
+.section-title {
+    font-size: 45px;
+    color: navy;
+    border-right: solid;
+
+}
+.primary-border {
+    border-color: var(--primary-color);
+}
+
+.tiles {
+    width: 100%;
+   margin: 0 auto; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.tile img {
+    width: 100%;
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  padding: 15px;
+  align-items: flex-end;
+  position: absolute;
 }
