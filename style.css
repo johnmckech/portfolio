@@ -63,9 +63,10 @@ html {
 
 .hero h2 {
     color: var(--secondary-color);
-    text-align: right;
+    text-align: center;
     font-style: italic;
     text-shadow:  0 0 10px rgb(255, 255, 153) ;
+    font-size: 40px;
 }
 
 .intro h2 {
@@ -105,11 +106,28 @@ html {
 }
 
 .tile img {
-    width: 100%;
-  min-height: 300px;
+  width: 100%;
+  min-height: 150px;
   background-size: cover;
   display: flex;
   padding: 15px;
   align-items: flex-end;
   position: absolute;
+  flex: 2 1 auto;
+}
+
+.tile-1 {
+    background-image: url(../portfolio/images/run-buddy.png);
+    background-size: cover;
+}
+.tile-2 {
+    background-image: url(../portfolio/images/roto.png);
+    background-size: cover;
+}
+
+.roto-img {
+    width: auto;
+    min-height: 150px;
+    display: flex;
+    position: absolute;
 }
